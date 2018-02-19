@@ -1,0 +1,25 @@
+*.class
+# Package Files #
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+/bin
+.*
+!.gitignore
+/api/classes
+/admin/classes
+/service/classes
+/web/classes
+/app/classes
+/api/target
+/service/target
+/admin/target
+/web/target
+/app/target
+/service/ora-create.sql
+/service/mySql-create.sql
+/service/ora-drop.sql
+/service/mySql-drop.sql
