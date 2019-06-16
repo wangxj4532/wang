@@ -13,6 +13,7 @@ public class TestServiceImpl  implements TestService{
 
     public Role findById(Integer id){
         Role role= EbeanUtil.find(Role.class,1l);
+        System.out.println("===========================");
         return role;
     }
 }
